@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "news-search",
-    "slug": "news-search",
+    "slug": "newssearcher",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8de768d-2ea6-4265-9e90-cd0f390d1c30"
+      }
+    },
+    "owner": "govind2003"
   }
 }
