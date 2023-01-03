@@ -23,7 +23,7 @@ const Search = () => {
         </View>
         
         <View style={styles.flatlist}>
-        {data && <FlatList  data={data} renderItem={({item}) =>{
+        {data && <FlatList horizontal  data={data} renderItem={({item}) =>{
             const {image, title, description, url} = item; 
 
             return <News image={image} title={title} description={description} url={url} key={Math.random()}/>
